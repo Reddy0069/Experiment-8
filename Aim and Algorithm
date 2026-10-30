@@ -1,0 +1,22 @@
+Aim:To check the validity of a date using the `re` module in Python.
+
+Algorithm:
+
+1. Start.
+2. Get a date as input from the user.
+3. Specify a regular expression pattern to match the DD/MM/YYYY format.
+4. Use `re.fullmatch()` to verify the input format.
+5. If the input matches the pattern, display a valid date message.
+6. If the pattern does not match, display an invalid date message.
+7. Stop.
+
+Algorithm:
+
+1. Start.
+2. Accept an email ID or mobile number from the user.
+3. Create regular expression patterns for email IDs and mobile numbers.
+4. Apply `re.fullmatch()` to check the entered input against the patterns.
+5. If the email pattern matches, display the corresponding email validation message.
+6. Otherwise, check whether the mobile number pattern matches and display the appropriate message.
+7. If neither pattern matches, display an invalid input message.
+8. Stop.
